@@ -222,7 +222,7 @@ body {
 		padding-right: 15px;
 		padding-left: 15px;
 		position: relative;
-		width: 100%;
+		width: 50%;
 	}
 
 	.container {
@@ -283,7 +283,7 @@ body {
 	.local_div {
 		display: flex
 		;
-		width: 100%;
+		width: 50%;
 		position:relative;
     overflow:hidden;
     z-index:-1;
@@ -317,7 +317,7 @@ body {
 	.remote_div video {
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
-		max-width: 100%;
+		max-width: 50%;
 	}
 
 	.remote2_div video {
