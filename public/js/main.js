@@ -98,9 +98,11 @@ function sendMessage(message, room) {
 }
 
 
-
+var snapshotButton = document.querySelector('button#snapshot');
+var filterSelect = document.querySelector('select#filter');
 //Displaying Local Stream and Remote Stream on webpage
 var localVideo = document.querySelector('#localVideo');
+var canvas = document.querySelector('#canvas');
 var remoteVideo = document.querySelector('#remoteVideo');
 console.log("Going to find Local media");
 navigator.mediaDevices.getUserMedia(localStreamConstraints)
@@ -108,7 +110,14 @@ navigator.mediaDevices.getUserMedia(localStreamConstraints)
 .catch(function(e) {
   alert('getUserMedia() error: ' + e.name);
 });
-
+snapshotButton.onclick = function(){
+  canvas.className = filterSelect.value;
+  canvas.getContext('2d'),drawImage(localvideo, 0, 0, 300,300);
+}
+filterSelect.onchange = function(){
+  video.className = filterSelect.value;
+  canvas.getContext('2d'),drawImage(localvideo, 0, 0, 300,300);
+}
 //If found local stream
 function gotStream(stream) {
   console.log('Adding local stream.');
