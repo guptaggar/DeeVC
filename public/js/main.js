@@ -15,7 +15,7 @@ var pcConfig = turnConfig;
 
 //Set local stream constraints
 var localStreamConstraints = {
-    audio: true,
+    audio: false,
     video: true
   };
 
@@ -114,7 +114,7 @@ navigator.mediaDevices.getUserMedia(localStreamConstraints)
 });
 snapshotButton.onclick = function(){
   canvas.className = filterSelect.value;
-  canvas.getContext('2d'),drawImage(localvideo, 0, 0, 300,300);
+  canvas.getContext('2d'),drawImage(localVideo, 0, 0, 300,300);
 }
 filterSelect.onchange = function(){
   video.className = filterSelect.value;
