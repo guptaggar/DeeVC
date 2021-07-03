@@ -103,6 +103,8 @@ var filterSelect = document.querySelector('select#filter');
 //Displaying Local Stream and Remote Stream on webpage
 var localVideo = document.querySelector('#localVideo');
 var canvas = document.querySelector('#canvas');
+canvas.width = 300;
+canvas.height = 300;
 var remoteVideo = document.querySelector('#remoteVideo');
 console.log("Going to find Local media");
 navigator.mediaDevices.getUserMedia(localStreamConstraints)
@@ -116,7 +118,6 @@ snapshotButton.onclick = function(){
 }
 filterSelect.onchange = function(){
   video.className = filterSelect.value;
-  canvas.getContext('2d'),drawImage(localvideo, 0, 0, 300,300);
 }
 //If found local stream
 function gotStream(stream) {
