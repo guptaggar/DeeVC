@@ -115,6 +115,9 @@ body {
 .container {
     margin-right: auto;
     margin-left: auto;
+    color: #ff0;
+    background-color: #555555;
+    max_width:500px;
 }
 .message{
    color: #ff0;
