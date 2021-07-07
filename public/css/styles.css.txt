@@ -116,14 +116,17 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
-
-.msg_lft {
-    
-    margin-left: auto;
+.message{
+   color: #ff0;
+   background-color: #aaaaaa;
 }
-.msg_rght {
+.left {
     
-    margin-right: auto;
+   float:left;
+}
+.right {
+    
+   float:right;
 }
 /* For Desktop  */
 	.col-12 {
