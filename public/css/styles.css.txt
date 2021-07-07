@@ -117,8 +117,14 @@ body {
     margin-left: auto;
 }
 
-
-
+.msg_lft {
+    
+    margin-left: auto;
+}
+.msg_rght {
+    
+    margin-right: auto;
+}
 /* For Desktop  */
 	.col-12 {
 		position: relative;
