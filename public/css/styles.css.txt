@@ -112,25 +112,35 @@ body {
 }
 
 
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    color: #ff0;
-    background-color: #555555;
-    max_width:500px;
+.container{
+    max-width: 955px;
+    border: 2px solid black;
+    border-radius: 13px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
 }
+
 .message{
-   color: #ff0;
-   background-color: #aaaaaa;
+    background-color: rgb(211, 204, 204);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
-.left {
-    
-   float:left;
+.left{
+    float: left;
+    clear:both;
 }
-.right {
-    
-   float:right;
+
+.right{
+    float: right;
+    clear:both;
 }
+
 /* For Desktop  */
 	.col-12 {
 		position: relative;
