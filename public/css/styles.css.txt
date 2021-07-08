@@ -112,7 +112,7 @@ body {
 }
 
 
-.container{
+container{
     max-width: 955px;
     border: 2px solid black;
     border-radius: 13px;
