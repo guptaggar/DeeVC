@@ -135,12 +135,12 @@ body {
 }
 .left{
     float: left;
-    clear:both;
+    
 }
 
 .right{
     float: right;
-    clear:both;
+   
 }
 
 /* For Desktop  */
