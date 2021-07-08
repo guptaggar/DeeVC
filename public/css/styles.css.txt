@@ -125,7 +125,7 @@ body {
     margin-bottom: 23px;
 }
 
-message{
+.message{
     background-color: rgb(211, 204, 204);
     width: 24%;
     padding: 10px;
@@ -136,8 +136,7 @@ message{
 .left{
     float: left;
     color: #f0f;
-    
-}
+ }
 
 right{
     float: right;
@@ -252,6 +251,7 @@ right{
 
 	.container {
 		max-width: 310px;
+		background-color: rgb(211, 204, 204);
 		padding-right: 5px;
 		padding-left: 5px;
 	}
