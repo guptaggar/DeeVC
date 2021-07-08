@@ -62,10 +62,11 @@ div {
 	max-width: 955px;
         border: 2px solid black;
 	background-color: #e9ecef;
+	color: #212529;
 }
 
 body {
-	margin: 0;
+	margin: 100;
     line-height: 1.5;
     color: #212529;
     text-align: left;
