@@ -142,11 +142,13 @@ body {
 .left{
     float: left;
     color: #f0f;
+    clear:both;
  }
 
 .right{
     float: right;
     color: #ff0;
+    clear:both;
 }
 
 /* For Desktop  */
