@@ -149,7 +149,7 @@ body {
     align-items: center!important;
 }
 
-/*
+
 
 
 /* For Desktop  */
@@ -367,6 +367,6 @@ body {
 		color: #fff;
 		background-color: #25274d;
 		border-color: #25274d;
-	}*/
+	}
 	
 }
