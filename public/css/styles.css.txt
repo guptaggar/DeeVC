@@ -124,11 +124,11 @@ body {
     padding: 33px;
     overflow-y: auto;
     margin-bottom: 23px;
-    background-color: #ffecef;
+    background-color:#ff80AD;
 }
 
 .message{
-    background-color: rgb(211, 204, 204);
+    background-color: #00ffAD;
     width: 24%;
     padding: 10px;
     margin: 17px 12px;
@@ -140,7 +140,7 @@ body {
     color: #f0f;
  }
 
-right{
+.right{
     float: right;
     color: #ff0;
 }
