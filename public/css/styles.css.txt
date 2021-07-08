@@ -65,12 +65,45 @@ div {
 	background-color: #e9ecef;
 	color: #212529;
 }
+.container{
+    max-width: 500px;
+    border: 2px solid black;
+    border-radius: 13px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    background-color:#ff80AD;
+    color:red;
+}
+
+.message{
+    background-color: #00ffAD;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color:yellow;
+}
+.left{
+    float: left;
+    color: #f0f;
+    clear:both;
+ }
+
+.right{
+    float: right;
+    color: #ff0;
+    clear:both;
+}
 
 body {
 	margin: 100;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
 	display: block;
 	background-color: #0080AD;
 	font-family: 'Baloo Tamma 2', cursive;
@@ -116,40 +149,8 @@ body {
     align-items: center!important;
 }
 
+/*
 
-.container{
-    max-width: 500px;
-    border: 2px solid black;
-    border-radius: 13px;
-    margin: auto;
-    height: 60vh;
-    padding: 33px;
-    overflow-y: auto;
-    margin-bottom: 23px;
-    background-color:#ff80AD;
-    color:red;
-}
-
-.message{
-    background-color: #00ffAD;
-    width: 24%;
-    padding: 10px;
-    margin: 17px 12px;
-    border: 2px solid black;
-    border-radius: 10px;
-    color:yellow;
-}
-.left{
-    float: left;
-    color: #f0f;
-    clear:both;
- }
-
-.right{
-    float: right;
-    color: #ff0;
-    clear:both;
-}
 
 /* For Desktop  */
 	.col-12 {
@@ -285,7 +286,7 @@ body {
 	}
 
 	.form-group {
-    margin-bottom: 1rem;
+            margin-bottom: 1rem;
 	}
 
 	.form-control {
@@ -366,6 +367,6 @@ body {
 		color: #fff;
 		background-color: #25274d;
 		border-color: #25274d;
-	}
+	}*/
 	
 }
