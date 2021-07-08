@@ -125,7 +125,7 @@ body {
     margin-bottom: 23px;
 }
 
-.message{
+message{
     background-color: rgb(211, 204, 204);
     width: 24%;
     padding: 10px;
