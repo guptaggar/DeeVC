@@ -139,7 +139,7 @@ message{
     
 }
 
-.right{
+right{
     float: right;
     color: #ff0;
 }
