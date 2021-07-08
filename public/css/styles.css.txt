@@ -55,6 +55,7 @@ import styles from 'css/styles.css';
 html {
 	display: block;
 	line-height: 1.15;
+	background-color: #e9ecef;
 }
 
 div {
