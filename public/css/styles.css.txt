@@ -117,7 +117,7 @@ body {
 
 
 .container{
-    max-width: 955px;
+    max-width: 100px;
     border: 2px solid black;
     border-radius: 13px;
     margin: auto;
@@ -126,6 +126,7 @@ body {
     overflow-y: auto;
     margin-bottom: 23px;
     background-color:#ff80AD;
+    color:red;
 }
 
 .message{
@@ -135,6 +136,7 @@ body {
     margin: 17px 12px;
     border: 2px solid black;
     border-radius: 10px;
+    color:yellow;
 }
 .left{
     float: left;
