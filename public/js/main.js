@@ -232,15 +232,17 @@ function stop() {
   pc = null;
 }
 
-/*function chatbx(){
+function chatbx(){
     var txtara = document.querySelector('#txtara');
      var msgara = document.querySelector('.message_area');
-    /*var txtara = prompt('write ur msg here:');
+    var txtara = prompt('write ur msg here:');
     txtara.addeventListener("keyup",(e)=>
-                            {
+           if(e.key =="Enter")
+    {
         sendMessage(e.taget.value)
     }
-                 }
+    )
+  }
  function sendMessage(msg){
     let msg={message:msg}
     appendMessage(msg,"right")
@@ -254,7 +256,7 @@ function stop() {
         mainDiv.innerHTML=markup
         msgara.appendChild(mainDiv)
     }
-  */  
+   
         
 function toggleVideo() {
 
