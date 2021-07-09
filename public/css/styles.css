@@ -92,7 +92,15 @@ div {
     
     color:black;
 }
-
+#txtara{
+    height: 10vh;
+	margin :100;
+    float:right;
+    border: 2px solid black;
+    border-radius: 13px;
+    background-color: aqua;
+    overflow-y: auto;
+   }
 .message{
     background-color: grey;
    /*width: 24%;*/
@@ -115,15 +123,7 @@ div {
 	background-color: blue;
     clear:both;
 }
-.txtara{
-    height: 10vh;
-	margin :100;
-    float:right;
-    border: 2px solid black;
-    border-radius: 13px;
-    background-color: aqua;
-    overflow-y: auto;
-   }
+
 
 /*body {
 	margin: 100;
