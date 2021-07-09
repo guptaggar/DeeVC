@@ -250,16 +250,13 @@ audio_button.audio_onclick = function(){
 */
 function toggleVideo() {
 
-    alert("vidio toggle mode");
+    
     localStreamConstraints.video = !localStreamConstraints.video;
     localStream.getVideoTracks()[0].enabled = localStreamConstraints.video;
 }
 
 function toggleAudio() {
-alert("audio toggle mode");
-  if(localStream != null && localStream.getAudioTracks().length > 0){
-    audio = !audio;
-     
-    localStream.getAudioTracks()[0].enabled = audio;
+localStreamConstraints.audio = !localStreamConstraints.audio;
+    localStream.getAudioTracks()[0].enabled = localStreamConstraints.audio;
   }   
 }
