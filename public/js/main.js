@@ -238,6 +238,7 @@ function toggleVideo() {
     
     localStreamConstraints.video = !localStreamConstraints.video;
     localStream.getVideoTracks()[0].enabled = localStreamConstraints.video;
+    classList.toggle(" ");
 }
 
 function toggleAudio() {
@@ -248,7 +249,9 @@ localStreamConstraints.audio = !localStreamConstraints.audio;
 function endCall() {
     localStream.getVideoTracks()[0].enabled = false;
     localStream.getAudioTracks()[0].enabled = false;
+    stop();
   }   
+
 
 
 
