@@ -231,7 +231,7 @@ function stop() {
   pc.close();
   pc = null;
 }
-
+/*
 
 //create button to toggle video
 var video_button = document.createElement("video_button");
@@ -263,3 +263,4 @@ function toggleAudio() {
 
     localStream.getAudioTracks()[0].enabled = audio;
   }   
+*/
