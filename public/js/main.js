@@ -232,22 +232,7 @@ function stop() {
   pc = null;
 }
 
-/*
-//create button to toggle video
-var video_button = document.createElement("video_button");
-video_button.appendChild(document.createTextNode("Toggle hold"));
 
-video_button.video_onclick = function(){
-  localStream.getVideoTracks()[0].enabled = !(localStream.getVideoTracks()[0].enabled);
-}
-
-var audio_button = document.createElement("audio_button");
-video_button.appendChild(document.createTextNode("Toggle hold"));
-
-audio_button.audio_onclick = function(){
-  localStream.getAudioTracks()[0].enabled = !(localStream.getAudioTracks()[0].enabled);
-}
-*/
 function toggleVideo() {
 
     
@@ -259,9 +244,11 @@ function toggleAudio() {
 localStreamConstraints.audio = !localStreamConstraints.audio;
     localStream.getAudioTracks()[0].enabled = localStreamConstraints.audio;
   }   
-}
+
 function endCall() {
     localStream.getVideoTracks()[0].enabled = false;
     localStream.getAudioTracks()[0].enabled = false;
   }   
+
+
 }
