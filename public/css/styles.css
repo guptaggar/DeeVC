@@ -80,7 +80,7 @@ div {
 
 .message{
     background-color: grey;
-    width: 24%;
+   /*width: 24%;*/
     padding: 10px;
     margin: 17px 12px;
     border: 2px solid black;
