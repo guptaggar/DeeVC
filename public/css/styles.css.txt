@@ -1,4 +1,4 @@
-import styles from 'css/styles.css';
+import styles from 'css/styles.css.txt';
 @font-face {
   font-family: DejaVuSerif;
   src: url("../download/DejaVuSerif.eot");
