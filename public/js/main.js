@@ -232,7 +232,29 @@ function stop() {
   pc = null;
 }
 
-
+function chatbx(){
+    var txtara = document.querySelector('#txtara');
+     var msgara = document.querySelector('.message_area');
+    /*var txtara = prompt('write ur msg here:');*/
+    txtara.addeventListener("keyup",(e)=>{
+        sendMessage(e.taget.value)
+    }
+                 }
+ function sendMessage(msg){
+    let msg={message:msg}
+    appendMessage(msg,"right")
+    }
+ function appendMessage(msg,type){
+        let mainDiv=document.createElement('div')
+        let className= type
+        mainDiv.classList.add(className,"message")
+        let markup=
+            <p>${msg.message}</p>
+        mainDiv.innerHTML=markup
+        msgara.appendChild(mainDiv)
+    }
+    
+        
 function toggleVideo() {
 
     
