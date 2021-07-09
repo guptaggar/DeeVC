@@ -60,13 +60,13 @@ import styles from 'css/styles.css';
 
 div {
 	display: block;
-	max-width: 955px;
+	/*max-width: 955px;*/
         border: 2px solid black;
 	background-color: yellow;
 	color: #212529;
 }
 .container{
-    max-width: 500px;
+   /* max-width: 500px;*/
     border: 2px black;
     border-radius: 13px;
     margin: auto;
