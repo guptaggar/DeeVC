@@ -254,29 +254,27 @@ function endCall() {
 
 function chatbx(){
     var textara = document.querySelector("#txtara");
-     var msgara = document.querySelector(".message_area");
+     var mesgara = document.querySelector("msgara");
     var textara = prompt('write ur msg here:');
-    txtara.addeventListener("keyup",(e)=>
+    textara.addeventListener("keyup",(e)=>
            if(e.key =="Enter")
     {
         sendMsg(e.target.value)
     }
     )
   }
-
-
  function sendMsg(msg){
-    let msg={message:msg}
+    
     appendMessage(msg,"right")
     }
  function appendMessage(msg,type){
         let mainDiv=document.createElement('div')
         let className= type
-        mainDiv.classList.add(className,"message")
+        mainDiv.classList.add(className,msg)
         let markup=
-            <p>${msg.message}</p>
+            <p>${msg}</p>
         mainDiv.innerHTML=markup
-        msgara.appendChild(mainDiv)
+        mesgara.appendChild(mainDiv)
     }
    
  
