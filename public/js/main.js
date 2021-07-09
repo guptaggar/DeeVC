@@ -232,11 +232,12 @@ function stop() {
   pc = null;
 }
 
-function chatbx(){
+/*function chatbx(){
     var txtara = document.querySelector('#txtara');
      var msgara = document.querySelector('.message_area');
     /*var txtara = prompt('write ur msg here:');*/
-    txtara.addeventListener("keyup",(e)=>{
+    txtara.addeventListener("keyup",(e)=>
+                            {
         sendMessage(e.taget.value)
     }
                  }
@@ -253,14 +254,14 @@ function chatbx(){
         mainDiv.innerHTML=markup
         msgara.appendChild(mainDiv)
     }
-    
+  */  
         
 function toggleVideo() {
 
     
     localStreamConstraints.video = !localStreamConstraints.video;
     localStream.getVideoTracks()[0].enabled = localStreamConstraints.video;
-    classList.toggle(" ");
+    /*classList.toggle(" ");*/
 }
 
 function toggleAudio() {
