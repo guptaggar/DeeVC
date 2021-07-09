@@ -85,7 +85,7 @@ div {
     border: 2px solid black;
     border-radius: 13px;
     margin: auto;
-    height: 10vh;
+    height: 15vh;
     background-color: pink;
     overflow-y: auto;
    
@@ -93,7 +93,7 @@ div {
     color:black;
 }
 #txtara{
-    height: 10vh;
+    height: 15vh;
 	margin :100;
     float:right;
     border: 2px solid black;
