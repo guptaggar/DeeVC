@@ -57,7 +57,10 @@ import styles from 'css/styles.css';
 	line-height: 1.15;
 	background-color: white;
 }*/
-
+table{
+	display: block;
+	max-width:200px;*/
+}
 div {
 	display: block;
 	max-width:200px;*/
