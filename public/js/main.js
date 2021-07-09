@@ -247,7 +247,7 @@ video_button.appendChild(document.createTextNode("Toggle hold"));
 audio_button.audio_onclick = function(){
   localStream.getAudioTracks()[0].enabled = !(localStream.getAudioTracks()[0].enabled);
 }
-
+*/
 function toggleVideo() {
   if(localStream != null && localStream.getVideoTracks().length > 0){
     video= !video;
