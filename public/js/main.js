@@ -235,7 +235,7 @@ function stop() {
 /*function chatbx(){
     var txtara = document.querySelector('#txtara');
      var msgara = document.querySelector('.message_area');
-    /*var txtara = prompt('write ur msg here:');*/
+    /*var txtara = prompt('write ur msg here:');
     txtara.addeventListener("keyup",(e)=>
                             {
         sendMessage(e.taget.value)
