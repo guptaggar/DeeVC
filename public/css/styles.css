@@ -70,7 +70,7 @@ div {
     border: 2px black;
     border-radius: 13px;
     margin: auto;
-    height: 90vh;
+    height: 70vh;
     
     overflow-y: auto;
     margin-bottom: 23px;
@@ -79,7 +79,7 @@ div {
 }
 
 .message{
-    background-color: white;
+    background-color: grey;
     width: 24%;
     padding: 10px;
     margin: 17px 12px;
@@ -238,7 +238,7 @@ div {
 	}
 	
 	video {
-		width:20%;
+		width:50%;
 	}
 
 }
