@@ -231,7 +231,7 @@ function stop() {
   pc.close();
   pc = null;
 }
-/*
+
 
 //create button to toggle video
 var video_button = document.createElement("video_button");
@@ -247,10 +247,11 @@ video_button.appendChild(document.createTextNode("Toggle hold"));
 audio_button.audio_onclick = function(){
   localStream.getAudioTracks()[0].enabled = !(localStream.getAudioTracks()[0].enabled);
 }
-*/
+
 function toggleVideo() {
+alert("video");
   if(localStream != null && localStream.getVideoTracks().length > 0){
-      alert("video");
+      
     video= !video;
 
     localStream.getVideoTracks()[0].enabled = video;
@@ -259,9 +260,10 @@ function toggleVideo() {
 }
 
 function toggleAudio() {
+alert("audio");
   if(localStream != null && localStream.getAudioTracks().length > 0){
     audio = !audio;
-     alert("audio");
+     
     localStream.getAudioTracks()[0].enabled = audio;
   }   
-*/
+}
