@@ -64,13 +64,13 @@ table{
 div {
 	display: block;
 	max-width:400px;
-        border: 2px  black;
+        border: 2px  solid black;
 	
 	color: #212529;
 }
 .container{
    /* max-width: 500px;*/
-    border: 2px black;
+    border: 2px solid black;
     border-radius: 13px;
     margin: auto;
     height: 70vh;
