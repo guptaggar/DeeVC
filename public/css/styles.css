@@ -106,6 +106,7 @@ div {
 .txtara{
     height: 10vh;
     float:right;
+    border: 2px solid black;
     border-radius: 13px;
     background-color: aqua;
     overflow-y: auto;
