@@ -250,7 +250,7 @@ audio_button.audio_onclick = function(){
 */
 function toggleVideo() {
 
-  
+    alert("vidio toggle mode");
     localStreamConstraints.video = !localStreamConstraints.video;
  
 }
