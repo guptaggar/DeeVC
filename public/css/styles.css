@@ -52,11 +52,11 @@ import styles from 'css/styles.css';
 }
 
 
-html {
+/*html {
 	display: block;
 	line-height: 1.15;
 	background-color: white;
-}
+}*/
 
 div {
 	display: block;
@@ -75,7 +75,7 @@ div {
     overflow-y: auto;
     margin-bottom: 23px;
     background-color:red;
-    color:red;
+    color:black;
 }
 
 .message{
@@ -85,7 +85,7 @@ div {
     margin: 17px 12px;
     border: 2px solid black;
     border-radius: 10px;
-    color:blue;
+    color:black;
 }
 .left{
     float: left;
