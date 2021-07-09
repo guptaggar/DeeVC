@@ -260,3 +260,8 @@ localStreamConstraints.audio = !localStreamConstraints.audio;
     localStream.getAudioTracks()[0].enabled = localStreamConstraints.audio;
   }   
 }
+function endCall() {
+    localStream.getVideoTracks()[0].enabled = false;
+    localStream.getAudioTracks()[0].enabled = false;
+  }   
+}
