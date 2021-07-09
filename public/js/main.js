@@ -247,7 +247,7 @@ video_button.appendChild(document.createTextNode("Toggle hold"));
 audio_button.audio_onclick = function(){
   localStream.getAudioTracks()[0].enabled = !(localStream.getAudioTracks()[0].enabled);
 }
-/*
+
 function toggleVideo() {
   if(localStream != null && localStream.getVideoTracks().length > 0){
     video= !video;
@@ -257,9 +257,9 @@ function toggleVideo() {
 
 }
 
-function toggleMic() {
+function toggleAudio() {
   if(localStream != null && localStream.getAudioTracks().length > 0){
     audio = !audio;
 
-    localStream.getAudioTracks()[0].enabled = mic;
-  }  */ 
+    localStream.getAudioTracks()[0].enabled = audio;
+  }   
