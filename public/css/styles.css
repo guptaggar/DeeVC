@@ -93,17 +93,20 @@ div {
 .left{
     float: left;
     color: #000;
+	background-color: aqua;
     clear:both;
  }
 
 .right{
     float: right;
     color: #000;
+	background-color: blue;
     clear:both;
 }
 .txtara{
     height: 10vh;
     background-color: aqua;
+	overflow-y: auto;
    }
 
 /*body {
