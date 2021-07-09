@@ -249,7 +249,7 @@ audio_button.audio_onclick = function(){
 }
 */
 function toggleVideo() {
-alert("video");
+alert("video toggle mode");
   if(localStream != null && localStream.getVideoTracks().length > 0){
       
     video= !video;
@@ -260,7 +260,7 @@ alert("video");
 }
 
 function toggleAudio() {
-alert("audio");
+alert("audio toggle mode");
   if(localStream != null && localStream.getAudioTracks().length > 0){
     audio = !audio;
      
