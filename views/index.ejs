@@ -17,6 +17,7 @@
 </head>
 
 <body bgcolor="pink">
+<script src="./css/main.js" ></script>
 <h2 align="center">TWO OF US</h1>
    <table border =5 align="center" > 
    <tr align="center">
@@ -30,28 +31,13 @@
   </tr> 
    <tr align="center"> 
         
- 	<td>  <button type="button"><img src="/js/audio.jpg" width=130 height=80 alt="image not found">	</button>	</td> 
+ 	<td>  <button type="button"><img src="/js/audio.jpg" width=130 height=80 alt="image not found" onclick=toggleAudio()>	</button>	</td> 
  	<td>  <button type="button"><img src="/js/video.jpg"  width=130 height=80 alt="image not found">	</button>  </td>
   <td>	 <button type="button"><img src="/js/chat.png"  width=130 height=80 alt="image not found">		</button></td> 
   <td>	 <button type="button"><img src="/js/endcall.jpg" width=130 height=80 alt="image not found">		</button></td> 
   </tr> 
   </table> 
 
-<button id="btn" onclick="toggleHide()>SHow/Hide</button>
-function toggleHide(){
-let btn=document.getElementById('btn');
-let imgg=document.getElementById('localVideo');
-if(imgg.style.display != "none"{
-imgg.style.display = "none";
-else
-{imgg.style.display != "block";}
-}
-<div class="container">
-    <div class="message left">hello how r u</div>
-    
-    <div class="message  right">fine</div>
-
-</div> 
 
 
   <!-- Import SocketIO for signalling -->
