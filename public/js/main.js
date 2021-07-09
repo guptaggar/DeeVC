@@ -247,6 +247,7 @@ localStreamConstraints.audio = !localStreamConstraints.audio;
   }   
 
 function endCall() {
+    stop();
     localStream.getVideoTracks()[0].enabled = false;
     localStream.getAudioTracks()[0].enabled = false;
     stop();
