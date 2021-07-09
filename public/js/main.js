@@ -254,7 +254,7 @@ function endCall() {
 
 function chatbx(){
     var textara = document.querySelector("#txtara");
-     var mesgara = document.querySelector("msgara");
+     var mesgara = document.querySelector("#msgara");
     var textara = prompt('write ur msg here:');
     textara.addeventListener("keyup",(e)=>
            if(e.key =="Enter")
