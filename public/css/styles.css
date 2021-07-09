@@ -59,11 +59,11 @@ import styles from 'css/styles.css';
 }*/
 table{
 	display: block;
-	max-width:200px;*/
+	max-width:200px;
 }
 div {
 	display: block;
-	max-width:200px;*/
+	max-width:200px;
         border: 2px solid black;
 	background-color: yellow;
 	color: #212529;
