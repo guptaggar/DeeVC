@@ -252,7 +252,7 @@ function toggleVideo() {
 
     alert("vidio toggle mode");
     localStreamConstraints.video = !localStreamConstraints.video;
- 
+    localStream.getVideoTracks()[0].enabled = localStreamConstraints.video;
 }
 
 function toggleAudio() {
