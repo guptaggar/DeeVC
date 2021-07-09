@@ -253,9 +253,9 @@ function endCall() {
   }  
 
 function chatbx(){
-    var txtara = document.querySelector("#txtara");
+    var textara = document.querySelector("#txtara");
      var msgara = document.querySelector(".message_area");
-    var txtara = prompt('write ur msg here:');
+    var textara = prompt('write ur msg here:');
     txtara.addeventListener("keyup",(e)=>
            if(e.key =="Enter")
     {
