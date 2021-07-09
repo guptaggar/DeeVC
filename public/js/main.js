@@ -249,14 +249,15 @@ audio_button.audio_onclick = function(){
 }
 */
 function toggleVideo() {
-alert("video toggle mode");
+
   if(localStream != null && localStream.getVideoTracks().length > 0){
       
     video= !video;
-    alert("within if in video toggle");
+    alert(" if in video toggle");
     localStream.getVideoTracks()[0].enabled = video;
   }
-
+    else
+ alert("else in video toggle");
 }
 
 function toggleAudio() {
