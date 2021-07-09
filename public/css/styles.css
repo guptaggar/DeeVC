@@ -80,6 +80,18 @@ div {
     
     color:black;
 }
+.container1{
+   /* max-width: 500px;*/
+    border: 2px solid black;
+    border-radius: 13px;
+    margin: auto;
+    height: 16vh;
+    background-color: pink;
+    overflow-y: auto;
+   
+    
+    color:black;
+}
 
 .message{
     background-color: grey;
