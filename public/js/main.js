@@ -253,7 +253,7 @@ alert("video toggle mode");
   if(localStream != null && localStream.getVideoTracks().length > 0){
       
     video= !video;
-
+    alert("within if in video toggle");
     localStream.getVideoTracks()[0].enabled = video;
   }
 
