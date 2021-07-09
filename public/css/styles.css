@@ -55,14 +55,14 @@ import styles from 'css/styles.css';
 html {
 	display: block;
 	line-height: 1.15;
-	background-color: #e9ecef;
+	background-color: white;
 }
 
 div {
 	display: block;
 	max-width: 955px;
         border: 2px solid black;
-	background-color: #e9ecef;
+	background-color: yellow;
 	color: #212529;
 }
 .container{
@@ -79,13 +79,13 @@ div {
 }
 
 .message{
-    background-color: yellow;
+    background-color: white;
     width: 24%;
     padding: 10px;
     margin: 17px 12px;
     border: 2px solid black;
     border-radius: 10px;
-    color:yellow;
+    color:blue;
 }
 .left{
     float: left;
