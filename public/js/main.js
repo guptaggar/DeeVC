@@ -266,6 +266,7 @@ function chatbx(){
  function sendMsg(msg){
     
     appendMessage(msg,"right")
+     socket.emit("message",msg)
     }
  function appendMessage(msg,type){
         let mainDiv=document.createElement('div')
