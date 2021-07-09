@@ -146,11 +146,13 @@ div {
     flex-wrap: wrap;
 
 }
+/*
 .vid{color:red;
     font_size:50px;
     cursor : pointer;
     user-select:none;}
 .vid : hover{color:blue;}
+*/
 .ml-auto, .mx-auto {
     margin-left: auto!important;
 }
