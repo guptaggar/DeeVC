@@ -58,7 +58,7 @@ import styles from 'css/styles.css';
 	background-color: white;
 }*/
 table{
-	display: block;
+	/*display: block;*/
 	max-width:200px;
 }
 div {
