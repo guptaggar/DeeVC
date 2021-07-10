@@ -271,7 +271,7 @@ function chatbx(){
  function appendMessage(msg,type){
         let mainDiv=document.createElement('div')
         let className= type
-        mainDiv.classList.add(className,msg)
+        mainDiv.classList.add(className,"msg")
         let markup=
             <p>${msg}</p>
         mainDiv.innerHTML=markup
