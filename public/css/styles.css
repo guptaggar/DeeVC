@@ -270,7 +270,7 @@ div {
 	}
 	
 	video {
-		width:80%;
+		width:100%;
 	}
 
 }
@@ -383,7 +383,7 @@ div {
 	.remote_div video {
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
-		max-width: 50%;
+		max-width: 100%;
 	}
 
 	.remote2_div video {
