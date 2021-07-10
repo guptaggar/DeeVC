@@ -67,7 +67,9 @@ h3 {
   background-color: #111;
   overflow: auto;
 }
-
+.btn:hover{
+	background-color: RoyalBlue;
+}
 .icon-bar a {
   float: left;
   width: 30%;
