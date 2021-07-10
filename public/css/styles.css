@@ -51,9 +51,9 @@ import styles from 'css/styles.css';
     box-sizing: border-box;
 }
 h2 {
-  padding: 60px;
+  padding: 30px;
   text-align: center;
-  background: #1abc9c;
+  background: #a5bc9c;
   color: white;
   font-size: 30px;
 }
