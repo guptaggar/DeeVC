@@ -63,8 +63,8 @@ h3 {
   padding: 5px;
 }
 .icon-bar {
-  width: 100%;
-  background-color: #555;
+  width: 50%;
+  background-color: #111;
   overflow: auto;
 }
 
@@ -112,7 +112,7 @@ div {
     border-radius: 13px;
     margin: auto;
     height: 60vh;
-    background-color: pink;
+    background-color: #101;
     overflow-y: auto;
     margin-bottom: 23px;
     
@@ -124,7 +124,7 @@ div {
     border-radius: 13px;
     margin: auto;
     height: 15vh;
-    background-color: pink;
+    background-color: #110;
     overflow-y: auto;
    
     
