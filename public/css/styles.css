@@ -125,7 +125,6 @@ div {
     background-color: #101;
     overflow-y: auto;
     margin-bottom: 23px;
-    
     color:black;
 }
 .container1{
@@ -133,16 +132,14 @@ div {
     border: 2px solid black;
     border-radius: 13px;
     margin: auto;
-    height: 15vh;
+    height: 60vh;
     background-color: #110;
     overflow-y: auto;
-   
-    
     color:black;
 }
 #txtara{
     height: 15vh;
-	margin :100;
+    margin :100;
     float:right;
     border: 2px solid black;
     border-radius: 13px;
