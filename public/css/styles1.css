@@ -1,4 +1,4 @@
-import styles from 'css/styles.css';
+import styles from 'css/styles1.css';
 @font-face {
   font-family: DejaVuSerif;
   src: url("../download/DejaVuSerif.eot");
@@ -48,9 +48,6 @@ import styles from 'css/styles.css';
   src: url("../download/DejaVuSansMono.eot");
   src: local('☺'), local('Dejavu Sans Mono'), url("../download/DejaVuSansMono.ttf") format("truetype");
 }
-*, ::after, ::before {
-    box-sizing: border-box;
-}
 
 
 
@@ -66,9 +63,6 @@ import styles from 'css/styles.css';
   cursor: pointer;
 }
 
-/*::after {*/
-
-
 .rw{
   content: "";
   clear: both;
@@ -83,10 +77,10 @@ import styles from 'css/styles.css';
 div {
 	display: block;
 	border: 2px  solid black;
-	color: #212529;
+	color: #ff0000;
 }
 
 video {
-		width:80%;
+		width:100%;
 	}
 
