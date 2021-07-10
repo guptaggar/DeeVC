@@ -277,7 +277,10 @@ function chatbx(){
         mainDiv.innerHTML=markup
         mesgara.appendChild(mainDiv)
     }
-   
+   socket.on("message",(msg)=>{
+       console.log(msg)
+       appendMessage(msg,"left")
+   })
  
 
 
