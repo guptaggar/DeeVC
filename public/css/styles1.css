@@ -63,16 +63,7 @@ import styles from 'css/styles1.css';
   cursor: pointer;
 }
 
-.rw{
-  content: "";
-  clear: both;
-  display: table;
-}
-.clumn {
-  float: center;
-  width: 50%;
-  padding: 5px;
-}
+
 
 div {
 	display: block;
