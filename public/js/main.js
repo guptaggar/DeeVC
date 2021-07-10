@@ -251,7 +251,7 @@ function endCall() {
     localStream.getAudioTracks()[0].enabled = false;
     stop();
   }  
-
+/*
 function chatbx(){
     var textara = document.querySelector("#txtara");
      var mesgara = document.querySelector("#msgara");
@@ -282,7 +282,7 @@ function chatbx(){
        appendMessage(msg,"left")
    })
  
-
+*/
 
 
 
