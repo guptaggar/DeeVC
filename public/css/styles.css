@@ -98,7 +98,7 @@ h3 {
 .rw::after {
   content: "";
   clear: both;
-  display: table;
+ /* display: table;*/
 }
 /*html {
 	display: block;
@@ -315,7 +315,7 @@ div {
 	}
 	
 	video {
-		width:80%;
+		width:40%;
 	}
 
 }
