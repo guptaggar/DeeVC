@@ -63,14 +63,14 @@ h3 {
   padding: 5px;
 }
 .icon-bar {
-  width: 50%;
+  width: 30%;
   background-color: #111;
   overflow: auto;
 }
 
 .icon-bar a {
   float: left;
-  width: 20%;
+  width: 30%;
   text-align: center;
   padding: 12px 0;
   transition: all 0.3s ease;
