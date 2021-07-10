@@ -8,6 +8,7 @@ import styles from 'css/styles.css';
 @font-face {
   font-family: DejaVuSerif;
   src: url("../download/DejaVuSerif-Italic.eot");
+	
   src: local('☺'), local('Dejavu Serif Italic'), url("../download/DejaVuSerif-Italic.ttf") format("truetype");
   font-style: italic;
 }
@@ -69,10 +70,10 @@ import styles from 'css/styles.css';
   cursor: pointer;
 }
 
+/*::after {*/
 
 
-
-.rw::after {
+.rw{
   content: "";
   clear: both;
  /* display: table;*/
