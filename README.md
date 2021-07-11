@@ -1,2 +1,2 @@
-# ggvc
-Video conferencing between 2
+# myvc
+Video conferencing between 2 friends
