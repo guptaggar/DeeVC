@@ -91,7 +91,15 @@ video {
 .imag:hover{
 	background-color: RoyalRed;
 }
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
 
+.fa:hover {
+  color: darkblue;
+}
 
 
 
