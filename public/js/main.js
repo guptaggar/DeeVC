@@ -229,6 +229,7 @@ function handleRemoteHangup() {
 function stop() {
   isInitiator = false;
   isStarted = false;
+  socket.broadcast.emit("user left");
   pc.close();
 /*  localStream.getVideoTracks()[0].enabled = false;
     localStream.getAudioTracks()[0].enabled = false;
@@ -251,7 +252,7 @@ function toggleAudio() {
 localStreamConstraints.audio = !localStreamConstraints.audio;
     localStream.getAudioTracks()[0].enabled = localStreamConstraints.audio;
 }
-   /* <i  class= "fa fa-microphone-slash"></i>*/
+  
     
      
 
