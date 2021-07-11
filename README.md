@@ -1,2 +1,2 @@
-# myvc
-Video conferencing between 2 friends
+# DeeVC
+Deeksha's Video conferencing App for 2 friends
