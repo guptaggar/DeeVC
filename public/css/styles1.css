@@ -82,8 +82,8 @@ video {
   height: 30px;
   width: 30px;
   border-radius: 50%;
-  border: 1px solid red;
-  background-color: DarkRed;
+  border: 1px solid darkRed;
+  background-color: Red;
   color:black;
 	cursor: pointer;
 }
