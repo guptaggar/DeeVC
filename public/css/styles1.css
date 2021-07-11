@@ -83,7 +83,7 @@ video {
   width: 30px;
   border-radius: 50%;
   border: 1px solid red;
-  background-color: DodgerRed;
+  background-color: DarkRed;
   color:black;
 	cursor: pointer;
 }
