@@ -70,11 +70,22 @@ video {
 	cursor: pointer;
 }
 
-
+.imag {
+  display:block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid blue;
+  background-color: DodgerRed;
+  color:red;
+	cursor: pointer;
+}
 .btn:hover{
 	background-color: RoyalBlue;
 }
-
+.imag:hover{
+	background-color: RoyalRed;
+}
 
 
 
