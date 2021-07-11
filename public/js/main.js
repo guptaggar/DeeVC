@@ -231,13 +231,10 @@ function stop() {
   isStarted = false;
   isClosed= true;
   socket.broadcast.emit("user left");
-    window.close();
+   localStream.getVideoTracks()[0].enabled = false;
+ localStream.getAudioTracks()[0].enabled = false;
+      
   pc.close();
-    window.close();
-/*  localStream.getVideoTracks()[0].enabled = false;
-    localStream.getAudioTracks()[0].enabled = false;
-    remoteStream.getVideoTracks()[0].enabled = false;
-    remoteStream.getAudioTracks()[0].enabled = false;*/
   pc = null;
 }
 
