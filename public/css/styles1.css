@@ -77,10 +77,8 @@ video {
 
 
 .imag {
-  display:block;
   
   border-radius: 50%;
-  border: 1px solid red;
   background-color: DodgerRed;
   color:red;
 	cursor: pointer;
