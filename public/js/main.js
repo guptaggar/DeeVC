@@ -250,9 +250,10 @@ function toggleVideo() {
 function toggleAudio() {
 localStreamConstraints.audio = !localStreamConstraints.audio;
     localStream.getAudioTracks()[0].enabled = localStreamConstraints.audio;
-    <i  class= "fa fa-microphone-slash"></i>
+}
+   /* <i  class= "fa fa-microphone-slash"></i>*/
     
-  }   
+     
 
 
 /*
