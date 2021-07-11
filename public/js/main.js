@@ -235,7 +235,7 @@ function stop() {
   isClosed= true;
     isChannelReady=false;
   socket.broadcast.emit("user left");
-   
+   sendMessage('bye',room);
       
   pc.close();
   pc = null;
