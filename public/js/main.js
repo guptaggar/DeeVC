@@ -1,5 +1,4 @@
 'use strict';
-
 //Defining some global utility variables
 var isChannelReady = false;
 var isInitiator = false;
@@ -230,6 +229,8 @@ function stop() {
     
   localStream.getVideoTracks()[0].enabled = false;
  localStream.getAudioTracks()[0].enabled = false;
+    remoteStream.getVideoTracks()[0].enabled = false;
+ remoteStream.getAudioTracks()[0].enabled = false;
     isInitiator = false;
   isStarted = false;
   isClosed= true;
