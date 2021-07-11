@@ -252,7 +252,9 @@ function toggleVideo() {
     /*classList.toggle(" ");*/
 }
 
-function toggleAudio() {
+function toggleAudio(x) {
+    x.classList.toggle("fa-microphone-slash");
+    
 localStreamConstraints.audio = !localStreamConstraints.audio;
     localStream.getAudioTracks()[0].enabled = localStreamConstraints.audio;
 }
