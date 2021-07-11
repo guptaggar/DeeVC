@@ -84,7 +84,7 @@ video {
   border-radius: 50%;
   border: 1px solid red;
   background-color: Red;
-  color:red;
+  color:black;
 	cursor: pointer;
 }
 .imag:hover{
