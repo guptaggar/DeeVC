@@ -227,11 +227,13 @@ function handleRemoteHangup() {
 }
 
 function stop() {
+    
   localStream.getVideoTracks()[0].enabled = false;
  localStream.getAudioTracks()[0].enabled = false;
     isInitiator = false;
   isStarted = false;
   isClosed= true;
+    isChannelReady=false;
   socket.broadcast.emit("user left");
    
       
