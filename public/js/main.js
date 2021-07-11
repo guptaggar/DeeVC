@@ -230,10 +230,10 @@ function stop() {
   isInitiator = false;
   isStarted = false;
   pc.close();
-  localStream.getVideoTracks()[0].enabled = false;
+/*  localStream.getVideoTracks()[0].enabled = false;
     localStream.getAudioTracks()[0].enabled = false;
     remoteStream.getVideoTracks()[0].enabled = false;
-    remoteStream.getAudioTracks()[0].enabled = false;
+    remoteStream.getAudioTracks()[0].enabled = false;*/
   pc = null;
 }
 
