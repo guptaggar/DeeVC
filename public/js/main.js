@@ -247,7 +247,7 @@ function stop() {
 function toggleVideo(x) {
     localStreamConstraints.video = !localStreamConstraints.video;
     localStream.getVideoTracks()[0].enabled = localStreamConstraints.video;
-    x.classList.toggle("fa-video-slash");
+    x.classList.toggle("fa fa-video-slash");
    }
 
 function toggleAudio(x) {
