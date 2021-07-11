@@ -256,7 +256,9 @@ function toggleAudio(x) {
     x.classList.toggle("fa-microphone-slash");
    }
  
-
+function lkdslk(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
 
 /*
 function chatbx(){
