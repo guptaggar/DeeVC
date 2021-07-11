@@ -244,16 +244,16 @@ function stop() {
 
 
 
-function toggleVideo() {
+function toggleVideo(x) {
 
-    
+    x.classList.toggle("fa fa-video-slash");
     localStreamConstraints.video = !localStreamConstraints.video;
     localStream.getVideoTracks()[0].enabled = localStreamConstraints.video;
     /*classList.toggle(" ");*/
 }
 
 function toggleAudio(x) {
-    x.classList.toggle("fa-microphone-slash");
+    x.classList.toggle("fa fa-microphone-slash");
     
 localStreamConstraints.audio = !localStreamConstraints.audio;
     localStream.getAudioTracks()[0].enabled = localStreamConstraints.audio;
