@@ -68,6 +68,7 @@ video {
   background-color: DodgerBlue;
   color:white;
 	cursor: pointer;
+	user-select:none;
 }
 
 
