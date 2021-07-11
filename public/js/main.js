@@ -256,42 +256,7 @@ function toggleAudio(x) {
     x.classList.toggle("fa-microphone-slash");
    }
  
-function lkdslk(x) {
-  x.classList.toggle("fa-thumbs-down");
-}
 
-/*
-function chatbx(){
-    var textara = document.querySelector("#txtara");
-     var mesgara = document.querySelector("#msgara");
-    var textara = prompt('write ur msg here:');
-    textara.addeventListener("keyup",(e)=>
-           if(e.key =="Enter")
-    {
-        sendMsg(e.target.value)
-    }
-    )
-  }
- function sendMsg(msg){
-    
-    appendMessage(msg,"right")
-     socket.emit("message",msg)
-    }
- function appendMessage(msg,type){
-        let mainDiv=document.createElement('div')
-        let className= type
-        mainDiv.classList.add(className,"msg")
-        let markup=
-            <p>${msg}</p>
-        mainDiv.innerHTML=markup
-        mesgara.appendChild(mainDiv)
-    }
-   socket.on("message",(msg)=>{
-       console.log(msg)
-       appendMessage(msg,"left")
-   })
- 
-*/
 
 
 
