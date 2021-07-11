@@ -227,11 +227,18 @@ function handleRemoteHangup() {
 }
 
 function stop() {
+  isInitiator = false;
   isStarted = false;
   pc.close();
+  localStream.getVideoTracks()[0].enabled = false;
+    localStream.getAudioTracks()[0].enabled = false;
+    remoteStream.getVideoTracks()[0].enabled = false;
+    remoteStream.getAudioTracks()[0].enabled = false;
   pc = null;
 }
-        
+
+
+
 function toggleVideo() {
 
     
@@ -245,12 +252,7 @@ localStreamConstraints.audio = !localStreamConstraints.audio;
     localStream.getAudioTracks()[0].enabled = localStreamConstraints.audio;
   }   
 
-function endCall() {
-    stop();
-    localStream.getVideoTracks()[0].enabled = false;
-    localStream.getAudioTracks()[0].enabled = false;
-    stop();
-  }  
+
 /*
 function chatbx(){
     var textara = document.querySelector("#txtara");
