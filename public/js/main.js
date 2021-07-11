@@ -245,22 +245,17 @@ function stop() {
 
 
 function toggleVideo(x) {
-
-    x.classList.toggle("fa fa-video-slash");
     localStreamConstraints.video = !localStreamConstraints.video;
     localStream.getVideoTracks()[0].enabled = localStreamConstraints.video;
-    /*classList.toggle(" ");*/
-}
+    x.classList.toggle("fa-video-slash");
+   }
 
 function toggleAudio(x) {
-    x.classList.toggle("fa fa-microphone-slash");
-    
-localStreamConstraints.audio = !localStreamConstraints.audio;
+    localStreamConstraints.audio = !localStreamConstraints.audio;
     localStream.getAudioTracks()[0].enabled = localStreamConstraints.audio;
-}
-  
-    
-     
+    x.classList.toggle("fa-microphone-slash");
+   }
+ 
 
 
 /*
