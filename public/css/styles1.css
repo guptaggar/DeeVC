@@ -49,23 +49,6 @@ import styles from 'css/styles1.css';
   src: local('☺'), local('Dejavu Sans Mono'), url("../download/DejaVuSansMono.ttf") format("truetype");
 }
 
-
-
-.btn1:hover{
-	background-color: RoyalBlue;
-}
-.btn1{
-  background-color: DodgerBlue;
-  border: none;
-  color: white;
-  padding: 12px 16px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius:"50%" 
-}
-
-
-
 div {
 	display: block;
 	border: 2px  solid black;
@@ -78,9 +61,32 @@ video {
 	}
 .btn {
   display:block;
-  height: 100px;
-  width: 100px;
+  height: 30px;
+  width: 3px;
   border-radius: 50%;
-  border: 1px solid red;
-  
+  border: 1px solid blue;
+  background-color: DodgerBlue;
+  color:white;
+	cursor: pointer;
 }
+
+
+.btn:hover{
+	background-color: RoyalBlue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
