@@ -231,6 +231,7 @@ function stop() {
   isStarted = false;
   isClosed= true;
   socket.broadcast.emit("user left");
+    window.close();
   pc.close();
     window.close();
 /*  localStream.getVideoTracks()[0].enabled = false;
