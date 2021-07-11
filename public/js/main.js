@@ -229,6 +229,7 @@ function handleRemoteHangup() {
 function stop() {
   isInitiator = false;
   isStarted = false;
+  isClosed= true;
   socket.broadcast.emit("user left");
   pc.close();
     window.close();
