@@ -1,12 +1,11 @@
-let input = document.querySelector('input')
-  
+
 let textarea = document.querySelector('textarea')
   
 // This event listener has been implemented to identify a
 // Change in the input section of the html code
 // It will be triggered when a file is chosen.
 input.addEventListener('change', () => {
-    let files = input.files;
+    let files = "log,html";
   
     if (files.length == 0) return;
   
