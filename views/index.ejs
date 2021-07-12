@@ -52,8 +52,7 @@
 
         <div width=50 align="right">
            <div id="chatbox">
-           hi
-           file_get_contents("log.html")
+           
             <?php
                 echo "hi";
             
@@ -76,7 +75,7 @@
             $(document).ready(function () {
                 $("#submitmsg").click(function () {
                     var clientmsg = $("#usermsg").val();
-                    $.post("post.php", { text: clientmsg });
+                    $.post("log.html", { text: clientmsg });
                     $fp=fopen(log.html","a");
                     fwrite($fp, $("#usermsg").val());
                     fclose($fp);
