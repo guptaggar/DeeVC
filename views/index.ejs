@@ -72,6 +72,7 @@
                 $("#submitmsg").click(function () {
                     var clientmsg = $("#usermsg").val();
                     $.post("views\post.php", { text: clientmsg });
+                    $.post("views/post.php", { text: clientmsg });
                     $("#usermsg").val("");
                     return false;
                 });
