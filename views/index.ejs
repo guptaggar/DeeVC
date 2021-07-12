@@ -51,7 +51,14 @@
 <!--Chat PArt testing start-->
 
         <div>
+           <div id="chatbox">
+            <?php
+                 $contents =$("#usermsg").val();
+                echo $contents;
            
+            ?>
+            
+            </div>
  
             <form name="message" action="">
                 <input name="usermsg" type="text" id="usermsg" />
@@ -64,8 +71,7 @@
             $(document).ready(function () {
                 $("#submitmsg").click(function () {
                     var clientmsg = $("#usermsg").val();
-                    $.post("views\post.php", { text: clientmsg });
-                    $.post("views/post.php", { text: clientmsg });
+                    $.post("post.php", { text: clientmsg });
                     $("#usermsg").val("");
                     return false;
                 });
@@ -73,14 +79,7 @@
                 
                
                 });
-                <div id="chatbox">
-            <?php
-                 $contents =$("#usermsg").val();
-                echo $contents;
-           
-            ?>
-            
-            </div>
+                
            
         </script>
         
