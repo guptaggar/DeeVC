@@ -50,18 +50,11 @@
 
 <!--Chat PArt testing start-->
 
-        <div width=50 align="right">
+        <div align="right">
            <div id="chatbox">
-           
-            <?php
-                echo "hi";
-            
-                $contents = file_get_contents("log.html");      
-                echo "bye";
-                echo $contents;
-          
-            ?>
-            
+           <textarea cols="50" rows="20" 
+                      placeholder="text will appear here">
+            </textarea>
             </div>
  
             <form name="message" action="" megthod="POST" width=50 align="right">
