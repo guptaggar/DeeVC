@@ -65,7 +65,7 @@
             
             </div>
  
-            <form name="message" action="" width=50 align="right">
+            <form name="message" action="" megthod="POST" width=50 align="right">
                 <input name="usermsg" type="text" id="usermsg" />
                 <input name="submitmsg" type="submit" id="submitmsg" value="Send" />
             </form>
@@ -77,17 +77,17 @@
                 $("#submitmsg").click(function () {
                     var clientmsg = $("#usermsg").val();
                     $.post("post.php", { text: clientmsg });
+                    $fp=fopen(log.html","a");
+                    fwrite($fp, $("#usermsg").val());
+                    fclose($fp);
                     $("#usermsg").val("");
                     return false;
                 });
- 
-                
-               
                 });
                 
            
         </script>
-        
+         
 
 
 
