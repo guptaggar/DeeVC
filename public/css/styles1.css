@@ -75,9 +75,7 @@ video {
 .btn:hover{
 	background-color: RoyalBlue;
 }
-body{
-	 background-image : url("engage.jpg");
-}
+
 
 .imag {
   
@@ -97,7 +95,7 @@ body{
   font-size: 120px;
   cursor: pointer;
   user-select: none;
-  color: black;	
+  color: white;	
 }
 
 .fa:hover {
