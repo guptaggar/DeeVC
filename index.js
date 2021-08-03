@@ -14,7 +14,7 @@ app.use(express.static('public'))
 
 //Define a route 
 app.set("view engine","ejs");
-app.get("/views", function(req, res){
+app.get("/", function(req, res){
   //Render a view (located in the directory views/) on this route
 	res.render("index.ejs");
 });
